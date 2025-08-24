@@ -61,3 +61,30 @@ console.log(typeof {});         // object
 console.log(typeof []);         // object (array is special object)
 console.log(typeof null);       // object (historical JS bug)
 console.log(typeof undefined);  // undefined
+
+// 12. typeof operator examples
+console.log(typeof 42);         // number
+console.log(typeof "Hello");    // string
+console.log(typeof true);       // boolean
+console.log(typeof {});         // object
+console.log(typeof []);         // object (array is special object)
+console.log(typeof null);       // object (historical JS bug)
+console.log(typeof undefined);  // undefined
+
+// 12. typeof operator examples
+console.log(typeof 42);         // number
+console.log(typeof "Hello");    // string
+console.log(typeof true);       // boolean
+console.log(typeof {});         // object
+console.log(typeof []);         // object (array is special object)
+console.log(typeof null);       // object (historical JS bug)
+console.log(typeof undefined);  // undefined
+
+// 12. typeof operator examples
+console.log(typeof 42);         // number
+console.log(typeof "Hello");    // string
+console.log(typeof true);       // boolean
+console.log(typeof {});         // object
+console.log(typeof []);         // object (array is special object)
+console.log(typeof null);       // object (historical JS bug)
+console.log(typeof undefined);  // undefined
