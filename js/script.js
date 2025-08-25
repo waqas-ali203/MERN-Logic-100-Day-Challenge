@@ -62,29 +62,12 @@ console.log(typeof []);         // object (array is special object)
 console.log(typeof null);       // object (historical JS bug)
 console.log(typeof undefined);  // undefined
 
-// 12. typeof operator examples
-console.log(typeof 42);         // number
-console.log(typeof "Hello");    // string
-console.log(typeof true);       // boolean
-console.log(typeof {});         // object
-console.log(typeof []);         // object (array is special object)
-console.log(typeof null);       // object (historical JS bug)
-console.log(typeof undefined);  // undefined
+let a = 10;
+let b = 3;
 
-// 12. typeof operator examples
-console.log(typeof 42);         // number
-console.log(typeof "Hello");    // string
-console.log(typeof true);       // boolean
-console.log(typeof {});         // object
-console.log(typeof []);         // object (array is special object)
-console.log(typeof null);       // object (historical JS bug)
-console.log(typeof undefined);  // undefined
-
-// 12. typeof operator examples
-console.log(typeof 42);         // number
-console.log(typeof "Hello");    // string
-console.log(typeof true);       // boolean
-console.log(typeof {});         // object
-console.log(typeof []);         // object (array is special object)
-console.log(typeof null);       // object (historical JS bug)
-console.log(typeof undefined);  // undefined
+console.log(a + b);  // 13 (Addition)
+console.log(a - b);  // 7  (Subtraction)
+console.log(a * b);  // 30 (Multiplication)
+console.log(a / b);  // 3.333... (Division)
+console.log(a % b);  // 1 (Remainder)
+console.log(a ** b); // 1000 (Exponentiation a^b)
